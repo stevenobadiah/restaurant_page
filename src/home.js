@@ -6,7 +6,7 @@ const home = () => {
     container.appendChild(home)
 
     const homeText = document.createElement('p')
-    homeText.innerHTML = "Psycho Potato is a gourment potato restaurant on the upper east side.";
+    homeText.innerHTML = "Psycho Potatoe is a gourment potato restaurant on the upper east side.";
     homeText.id = 'homeText';
     home.appendChild(homeText);
 
