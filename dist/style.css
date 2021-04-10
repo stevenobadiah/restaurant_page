@@ -1,0 +1,50 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: gold;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+}
+
+main {
+    background-image: url("images/potatoes.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
+}
+
+main > div {
+    width: 50%;
+    height: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+}
+
+#imgSamwise {
+    width: 70%;
+    margin: 0 auto;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style-type: none;
+    line-height: 2;
+}
+
+footer {
+    text-align: center;
+}
